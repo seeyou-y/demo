@@ -1,9 +1,7 @@
 package com.example.dao;
 
-import com.example.entity.User;
-
-import java.util.List;
+import java.sql.SQLOutput;
 
 public interface UserDAO {
-    List<User> findAll();
+   //123456789
 }
