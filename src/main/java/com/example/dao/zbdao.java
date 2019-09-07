@@ -1,4 +1,9 @@
 package com.example.dao;
 
-public class zbdao {
+import com.example.entity.User;
+
+import java.util.List;
+
+public interface zbdao {
+    List<User> selectaLL();
 }
